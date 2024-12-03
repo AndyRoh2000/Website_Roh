@@ -1,10 +1,5 @@
-# Ignore node_modules and other unnecessary files
+# Ignore node_modules
 node_modules/
-.DS_Store
-.env
-*.log
-build/
-dist/
 
-# Other temporary or unnecessary files
-*.tmp
+# Ignore everything except the build directory
+.next/
